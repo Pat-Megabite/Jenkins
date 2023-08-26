@@ -1,13 +1,11 @@
 pipeline {
     agent any
     
-    tools {
         //Maven - Build
         //JUnit - Testing
         //SonarLint - Analysis
         //Appscan - Security
         //Tools
-    }
 
     stages {
         stage('Build') {
