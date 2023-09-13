@@ -6,6 +6,7 @@ pipeline {
         //SonarLint - Analysis
         //Appscan - Security
         //Tools
+        //Test for github task
 
     stages {
         stage('Build') {
